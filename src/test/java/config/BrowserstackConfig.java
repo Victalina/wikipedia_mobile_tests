@@ -25,12 +25,6 @@ public interface BrowserstackConfig extends Config {
   @Key("remoteUrl")
   URL getRemoteUrl();
 
-  @Key("project")
-  String getProject();
-
   @Key("build")
   String getBuild();
-
-  @Key("name")
-  String getName();
 }
