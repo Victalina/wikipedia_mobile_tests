@@ -9,11 +9,6 @@ import java.net.URL;
 })
 
 public interface BrowserstackConfig extends Config {
-  @Key("browserstack.user")
-  String getUser();
-
-  @Key("browserstack.key")
-  String getKey();
 
   @Key("os")
   String getOs();
