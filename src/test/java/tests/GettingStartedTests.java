@@ -18,6 +18,7 @@ import static io.qameta.allure.Allure.step;
         @Tag("get_started_screens_tests")
 })
 @DisplayName("Проверка стартовых экранов приложения")
+@Owner("Victalina")
 @Epic("Мобильное приложение Wikipedia")
 @Story("Стартовые экраны приложения")
 @Feature("Стартовые экраны приложения")
@@ -25,7 +26,6 @@ public class GettingStartedTests extends TestBase {
 
   @Test
   @DisplayName("Пропуск стартовых экранов приложения по кнопке 'Skip'")
-  @Owner("Victalina")
   @Severity(SeverityLevel.CRITICAL)
   void skipGettingStartedScreensTest() {
 
@@ -40,7 +40,6 @@ public class GettingStartedTests extends TestBase {
 
   @Test
   @DisplayName("Пропуск стартовых экранов приложения по системной кнопке 'Назад'")
-  @Owner("Victalina")
   @Severity(SeverityLevel.NORMAL)
   void skipByBackGettingStartedScreensTest() {
 
@@ -52,7 +51,6 @@ public class GettingStartedTests extends TestBase {
 
   @Test
   @DisplayName("Проверка стартовых экранов приложения")
-  @Owner("Victalina")
   @Severity(SeverityLevel.NORMAL)
   void verifyGettingStartedScreensTest() {
 

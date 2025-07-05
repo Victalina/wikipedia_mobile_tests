@@ -18,6 +18,7 @@ import static org.openqa.selenium.By.xpath;
         @Tag("open_article_tests")
 })
 @DisplayName("Проверка открытия статьи")
+@Owner("Victalina")
 @Epic("Мобильное приложение Wikipedia")
 @Story("Открытие статьи")
 @Feature("Открытие статьи")
@@ -25,7 +26,6 @@ public class OpenArticleTests extends TestBase {
 
   @Test
   @DisplayName("Проверка отрытие статьи через поиск")
-  @Owner("Victalina")
   @Severity(SeverityLevel.CRITICAL)
   void openArticleTest() {
 

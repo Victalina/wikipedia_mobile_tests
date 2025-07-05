@@ -17,6 +17,7 @@ import static io.qameta.allure.Allure.step;
         @Tag("search_article_tests")
 })
 @DisplayName("Проверка результатов поиска статей")
+@Owner("Victalina")
 @Epic("Мобильное приложение Wikipedia")
 @Story("Поиск статей в приложении")
 @Feature("Поиск статей в приложении")
@@ -24,7 +25,6 @@ public class SearchArticleTests extends TestBase {
 
   @Test
   @DisplayName("Проверка результатов поиска статей по ключевому слову")
-  @Owner("Victalina")
   @Severity(SeverityLevel.CRITICAL)
   void successfulSearchArticleTest() {
 
