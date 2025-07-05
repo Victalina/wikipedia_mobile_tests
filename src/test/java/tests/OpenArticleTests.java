@@ -25,7 +25,7 @@ import static org.openqa.selenium.By.xpath;
 public class OpenArticleTests extends TestBase {
 
   @Test
-  @DisplayName("Проверка отрытие статьи через поиск")
+  @DisplayName("Проверка открытие статьи через поиск")
   @Severity(SeverityLevel.CRITICAL)
   void openArticleTest() {
 
